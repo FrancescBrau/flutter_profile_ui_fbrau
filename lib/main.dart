@@ -24,7 +24,7 @@ class _ProfileState extends State<Profile> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           setState(() {
-            counter = counter + 1;
+            counter = counter + 10;
           });
         },
         shape: const CircleBorder(),
@@ -63,7 +63,7 @@ class _ProfileState extends State<Profile> {
                       ),
                       SizedBox(height: 10.0),
                       Text(
-                        'Erza Scarlet',
+                        'Novak Djokovic',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 20.0,
@@ -71,7 +71,7 @@ class _ProfileState extends State<Profile> {
                       ),
                       SizedBox(height: 10.0),
                       Text(
-                        'S Class Mage',
+                        'Best all-time player',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 15.0,
@@ -102,11 +102,11 @@ class _ProfileState extends State<Profile> {
                               ),
                               DetailItem(
                                 label: "Birthday",
-                                value: "April 7th",
+                                value: "May 22nd",
                               ),
                               DetailItem(
                                 label: "Age",
-                                value: "19 yrs",
+                                value: "37 yrs",
                               ),
                             ],
                           ),
